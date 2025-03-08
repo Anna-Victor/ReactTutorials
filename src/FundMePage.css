@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+}
+
+/* Fix potential body margin issues */
+html, body {
+    width: 100%;
+  
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevents any unwanted horizontal scrolling */
+}
+
+body {
+    overflow-y: auto;
+    font-size: 18px;
+}
+
+.fundraiser-content {
+  padding: 0 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+#title {
+  margin-top: 50px;
+}
+
+@media(max-width:768px) {
+  #title {
+    margin-top: 180px;
+  }
+}
+
+@media(max-width:500px) {
+  #title {
+    margin-top: 200px;
+  }
+}
+
+form {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap:20px;
+}
+
+.donation-form {
+  margin-top: 20px;
+  width:100%;
+}
+
+.btn-style {
+  background-color: blue;
+  color:white;
+}
+
+#second {
+  text-decoration: none;
+  color:white;
+}
+
+.cta {
+  margin-top: 20px;
+  
+}
+
+.support-art {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:20px;
+  margin-bottom: 20px;
+}
+
+.support-art h3 {
+  text-align: center;
+  width:100%;
+}
