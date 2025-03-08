@@ -20,7 +20,7 @@ import AdminDashboard from './AdminDashboard';
 function App() {
 
   return (
-    <Router basename="/ReactTutorials"> {/* Add basename here */}
+    <Router> {/* Add basename here */}
       <div className="App">
         {/* Define Routes for Pages */}
         <Routes>
